@@ -79,6 +79,4 @@ adb shell pm uninstall --user 0 com.evenwell.pandorasbox
 adb shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.base.s600ww
 adb shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.back.s600id
 adb shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver
-echo "Done uninstalling. Cleaning cache now."
-adb shell rm -rf /data/dalvik-cache
 echo "The debloating is now finished. Please, reboot your phone, e.g. 'adb reboot'."
