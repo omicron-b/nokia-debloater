@@ -1,6 +1,7 @@
 #!/bin/bash
 
 adb devices
+adb shell pm uninstall --user 0 com.android.chrome
 adb shell pm uninstall --user 0 com.google.android.apps.wellbeing
 adb shell pm uninstall --user 0 com.google.android.apps.magazines
 adb shell pm uninstall --user 0 com.google.ar.lens
